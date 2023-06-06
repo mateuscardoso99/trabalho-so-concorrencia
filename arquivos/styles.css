@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container .legenda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container .legenda .descricao{
+    display: flex;
+    align-items: center;
+}
+
+.disponivel{
+    width: 40px;
+    height: 20px;
+    display: block;
+    margin: 5px;
+    background-color: #28810b;
+}
+
+.ocupado{
+    width: 40px;
+    height: 20px;
+    display: block;
+    margin: 5px;
+    background-color: #df0505;
+}
+
+.lugares{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.lugares .message{
+    padding: 15px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.success{
+    background-color: #a4f18b;
+    border-color: #067000;
+    color: #067000;
+}
+
+.error{
+    background-color: #ffbebe;
+    border-color: #990707;
+    color: #990707;
+}
+
+.lugares .box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lugares .box{
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 15px;
+}
+
+.lugares .box:hover{
+    /* width: 85px;
+    height: 55px; */
+    box-shadow: 4px 4px 5px 3px #c1c0c0;
+    cursor: pointer;
+    background-color: #4d9bff;
+}
+
+.form{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+form input{
+    padding: 9px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+form button{
+    margin: 10px auto;
+    width: 190px;
+    height: 35px;
+    background-color: #0c477a;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+}

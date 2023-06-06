@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Lugares teatro</h1>
+
+        <div class="legenda">
+            <div class="descricao">
+                Disponível
+                <span class="disponivel"></span>
+            </div>
+            <div class="descricao">
+                Ocupado
+                <span class="ocupado"></span>
+            </div>
+        </div>
+
+        <div class="lugares">
+            ${conteudo}
+        </div>
+
+        <div class="form" id="form-container">
+            <h3 id="label-lugar"></h3>
+            <form action="/reservar-lugar" method="get">
+                <input type="hidden" name="lugar" id="lugar">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("DOMContentLoaded", (e) => {
+            const lugares = document.getElementsByClassName("box")
+            console.log(lugares)
+            for(let i=0;i<lugares.length; i++){
+                lugares[i].addEventListener("click",function(evento){
+                    document.querySelector("#form-container").style.display = "flex";
+                    document.querySelector("#label-lugar").innerHTML = `Solicitar acento: ${evento.target.innerText}`
+                    document.querySelector("#lugar").value = evento.target.innerText;
+                })
+            }
+
+            // setInterval(()=>{
+            //     window.location.href="/reservar-lugar?lugar=20&nome=joao"
+            // },5000)
+        })
+    </script>
+</body>
+</html>

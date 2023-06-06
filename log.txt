@@ -1,0 +1,15 @@
+Acento: 11, Nome: joao, Data: 29/05/2023 12:55:14.690, IP: /127.0.0.1
+Acento: 15, Nome: joao, Data: 29/05/2023 12:55:14.690, IP: /127.0.0.1
+Acento: 17, Nome: joao, Data: 29/05/2023 12:55:14.690, IP: /127.0.0.1
+Acento: 12, Nome: joao, Data: 29/05/2023 12:55:14.690, IP: /127.0.0.1
+Acento: 13, Nome: joao, Data: 29/05/2023 12:55:14.690, IP: /127.0.0.1
+Acento: 16, Nome: joao, Data: 29/05/2023 12:55:14.690, IP: /127.0.0.1
+Acento: 14, Nome: joao, Data: 29/05/2023 12:55:14.690, IP: /127.0.0.1
+Acento: 13, Nome: joao, Data: 29/05/2023 12:56:03.426, IP: /127.0.0.1
+Acento: 17, Nome: joao, Data: 29/05/2023 12:56:03.426, IP: /127.0.0.1
+Acento: 15, Nome: joao, Data: 29/05/2023 12:56:03.427, IP: /127.0.0.1
+Acento: 14, Nome: joao, Data: 29/05/2023 12:56:03.426, IP: /127.0.0.1
+Acento: 16, Nome: joao, Data: 29/05/2023 12:56:03.426, IP: /127.0.0.1
+Acento: 12, Nome: joao, Data: 29/05/2023 12:56:03.426, IP: /127.0.0.1
+Acento: 11, Nome: joao, Data: 29/05/2023 12:56:03.427, IP: /127.0.0.1
+
