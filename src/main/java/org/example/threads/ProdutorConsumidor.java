@@ -63,6 +63,7 @@ public class ProdutorConsumidor{
     /**
      * consumidor é acordado apartir do momento que o produtor produz uma solicitação na lista
      * então ele grava no arquivo cada valor da lista, depois limpa a lista e volta a dormir
+     * é acordada através do notify(), se tiver vários notify() em sequência só o primeiro acorda essa thread e os outros não vão ter efeito nenhum
      * @throws InterruptedException
      * @throws IOException
      */
