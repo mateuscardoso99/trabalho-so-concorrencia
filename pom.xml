@@ -14,4 +14,27 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin> 
+
+                        <!-- Building an executable jar -->
+
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jar-plugin</artifactId>
+                        <version>3.1.0</version>
+                        <configuration>
+                        <archive>
+                            <manifest>
+
+                            <!-- give full qualified name of your main class-->
+                            <mainClass>org.example.webserver.Main</mainClass>
+
+                            </manifest>
+                        </archive>
+                        </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
