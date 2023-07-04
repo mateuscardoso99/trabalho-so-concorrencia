@@ -26,7 +26,7 @@ public class Main {
      * @throws InterruptedException
      */
     public static void main(String[] args) throws IOException, InterruptedException {
-        int porta = 8090;
+        int porta = 8080;
 
         ServerSocket serverSocket = new ServerSocket(porta);
         System.out.println("servidor rodando na porta " + porta + " http://localhost:8090\n");
