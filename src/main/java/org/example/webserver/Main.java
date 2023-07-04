@@ -29,7 +29,7 @@ public class Main {
         int porta = 8080;
 
         ServerSocket serverSocket = new ServerSocket(porta);
-        System.out.println("servidor rodando na porta " + porta + " http://localhost:8090\n");
+        System.out.println("servidor rodando na porta " + porta + " http://localhost:8080\n");
 
         List<Lugar> lugaresTeatro = new ArrayList<>();
         for(int i=1; i<=LUGARES_TEATRO; i++){
