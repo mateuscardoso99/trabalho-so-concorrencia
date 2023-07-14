@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  projeto:
+    build: .
+    volumes: 
+      - ./log.txt:/usr/src/app/trabalho-so-concorrencia/log.txt
+    ports: 
+      - 8080:8080
